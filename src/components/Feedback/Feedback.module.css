@@ -1,0 +1,16 @@
+.feedbackList {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.feedbackListItem {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 5px;
+  width: 50%;
+}
