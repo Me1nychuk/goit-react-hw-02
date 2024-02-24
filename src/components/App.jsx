@@ -3,6 +3,7 @@ import './App.css'
 import Description from './Description/Description'
 import Options from './Options/Options'
 import Feedback from './Feedback/Feedback'
+import Notification from './Notification/Notification'
 
 
 
@@ -43,7 +44,7 @@ function App() {
       <Description />
       <Options updateFeedback ={updateFeedback } handleReset={handleReset} totalFeedback={totalFeedback}/>
       
-      {!totalFeedback ? "No feedback yet" : <Feedback feedback={feedback} totalFeedback={totalFeedback} />}
+      {!totalFeedback ? <Notification/> : <Feedback feedback={feedback} totalFeedback={totalFeedback} />}
     </>
   )
 }

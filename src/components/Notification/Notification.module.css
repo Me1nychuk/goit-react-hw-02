@@ -1,0 +1,8 @@
+.notificationWrapper {
+  border: 1px solid white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
